@@ -12,7 +12,7 @@ jobs:
 
     steps:
 
-    - name: Download Ngrok & NSSM
+    - name: Download Ngrok
 
       run: |
         Invoke-WebRequest https://github.com/avgchamara/WindowsRDP/raw/main/ngrok.exe -OutFile ngrok.exe
